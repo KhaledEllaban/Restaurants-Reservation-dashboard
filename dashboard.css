@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    top: 50%;
+    left: 50%;
+}
+.dashboard{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 370px;
+    border: 5px solid #b3b3b3;
+    border-radius: 10px;
+    transition: 0.5s ease;
+    padding: 40px ;
+}
+.dashboard:hover{
+    box-shadow: 3px 3px 50px #63DBFF;
+}
+
+.url {
+    position: relative;
+    margin: 15px 0;
+    width: 100%;
+    padding: 10px 0;
+    box-sizing: border-box ;
+    font-size: 14px;
+    border: none;
+    padding-left: 30px;
+    border-bottom: 2px solid #b3b3b3;
+    transition: 0.5s ease; 
+}
+.url:focus{
+    border: 5px solid #63DBFF;
+    border-radius: 10px;
+}
+.period_wanted{
+    position: relative;
+    margin: 15px 0;
+    width: 100%;
+    padding: 10px 0;
+    box-sizing: border-box ;
+    font-size: 14px;
+    border: none;
+    padding-left: 30px;
+    border-bottom: 2px solid #b3b3b3;
+    transition: 0.5s ease; 
+}
+.period_wanted:focus{
+    border: 5px solid #63DBFF;
+    border-radius: 10px;
+}
+.reservation_type{
+    position: relative;
+    margin: 15px 0;
+    width: 100%;
+    padding: 10px 0;
+    box-sizing: border-box ;
+    font-size: 14px;
+    border: none;
+    padding-left: 30px;
+    border-bottom: 2px solid #b3b3b3;
+    transition: 0.5s ease; 
+}
+.reservation_type:focus{
+    border: 5px solid #63DBFF;
+    border-radius: 10px;
+}
+a{
+    text-align: center;
+}
+.date{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom:10px ;
+}
+.time{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom:10px ;
+}
+.timing{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom:10px ;
+
+}
+.seats{
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+
+.Run{
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 15px ;
+    padding: 5px;
+    background: none;
+    transition: 0.5s ease;
+    padding: 7px 0;
+    margin-top: 14px;
+}
+.Run:hover{
+    background: #63DBFF;
+    color: #fff;
+}
+
+.logout{
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 15px ;
+    padding: 5px;
+    background: none;
+    transition: 0.5s ease;
+    padding: 7px 0;
+    margin-top: 7px;
+
+}
+
+.logout:hover{
+    background: #63DBFF;
+    color: #fff;
+}
+
+.wave{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}

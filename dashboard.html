@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="dashboard.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard</title>
+</head>
+<body >
+    <h1> Dashboard</h1>
+    <div class="dashboard">
+        <div>
+            <input type="text" id="url" class="url" name="url" placeholder="ٌRestaurant Link">
+            <input type="text" id="period_wanted" class="period_wanted" name="period_wanted" placeholder="period_wanted">
+            <input type="text" id="reservation_type" class="reservation_type" name="reservation_type " placeholder="reservation_type">
+        </div>
+
+        <div class="date">
+            <label for="date_reservation">Date</label>
+            <input type="date"  id="date_reservation" name="date_reservation" >
+        </div>
+
+        <div class="time">           
+            <label for="time_reservation">Time </label>
+            <input type="time" id="time_reservation" name="time_reservation">
+        </div>
+
+
+
+            <div class="seats">
+                <label for="">seats</label>
+                <input type="number" id="seats" name="seats" min="2" max="10"  value="2">
+            </div>
+    
+        <input type="submit" value="Run" class="Run">
+        <button class="logout" >Log out</button>
+    </div>
+    <img class="wave" src="file:///K:/Downloads/wave%20(1).svg" alt="">
+</body>
+</html>
